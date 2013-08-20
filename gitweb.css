@@ -50,8 +50,8 @@ html {
 }
 
 body {
-  font: 13px Helvetica,arial,freesans,clean,sans-serif;
-  line-height: 1.4;
+  font: 12px monospace;
+  line-height: 1em;
   margin: 0 0 105px;
   background-color: #fff;
   color: #000000;
@@ -158,6 +158,7 @@ td, th {
 }
 
 .page_footer_text {
+  font-weight: bold;
   color: #666;
   display: inline;
   float: left;
@@ -166,9 +167,9 @@ td, th {
 
 a.rss_logo {
   float: right;
-  padding: 3px 1px;
+  padding: 6px 8px 3px 8px;
   width: 35px;
-  line-height: 10px;
+  line-height: 11px;
   border: 1px solid;
   border-color: #fcc7a5 #7d3302 #3e1a01 #ff954e;
   color: #ffffff;
@@ -300,6 +301,10 @@ th .header {
   margin: 0 auto 15px auto;
 }
 
+.search {
+  display: none;
+}
+
 .history {
   background: #eaeaea;
 }
@@ -308,6 +313,10 @@ th .header {
   width: 95%;
   padding: 5px;
   margin: 0 auto 15px auto;
+}
+
+body div.title {
+  display: none;
 }
 
 .projects_list,
